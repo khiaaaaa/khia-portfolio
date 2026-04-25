@@ -177,3 +177,50 @@ p {
   opacity: 1;
   visibility: visible;
 }
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #7c3aed;
+  font-size: 20px;
+}
+
+.skills-card {
+  padding: 30px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.skills-grid h4 {
+  margin-bottom: 5px;
+  color: #7c3aed;
+}
+
+.skills-grid p {
+  color: #4b5563;
+}
+
+.approach-card p {
+  margin-bottom: 15px;
+  color: #4b5563;
+}
+
+.grid {
+  margin-bottom: 60px;
+}
+
+h2 {
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
